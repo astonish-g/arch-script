@@ -15,7 +15,7 @@ declare -a myApps=("fastfetch" "gtk-3.0" "nemo" "nitrogen" "waybar")
 for dir in "${myApps[@]}";
 do
   if ! [ -d "$RICE/$dir" ]; then
-    cp -rf $DOWNLOAD/config/$dir $RICE
+    cp -rf $dir $RICE
   else
     mkdir $RICE/.config-backup &&
       mv $RICE/$dir $RICE/.config-backup/$dir &&
