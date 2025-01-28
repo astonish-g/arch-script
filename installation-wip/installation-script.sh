@@ -13,7 +13,7 @@ sudo pacman -Syu --noconfirm &&
 # Install apps with pacman
 printf "\n"
 printf "Now installing my used apps with pacman. \n"
-sudo pacman -S neovim btop htop kitty alacritty fastfetch wofi discord gimp krita inkscape go npm --noconfirm &&
+sudo pacman -S neovim btop htop kitty alacritty fastfetch obsidian wofi discord gimp krita inkscape go npm --noconfirm &&
 printf "\n"
 
 # Install apps with yay

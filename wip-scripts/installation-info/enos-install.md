@@ -6,7 +6,7 @@ sudo pacman -Syu
 
 # apps to install
 
-sudo pacman -S neovim btop htop kitty alacritty fastfetch wofi discord
+sudo pacman -S neovim btop htop kitty alacritty fastfetch wofi discord obsidian
 
 # Install Zen-Browser
 
